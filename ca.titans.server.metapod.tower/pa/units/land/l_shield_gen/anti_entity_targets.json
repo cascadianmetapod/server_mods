@@ -1,0 +1,31 @@
+{
+  "ammo_capacity": 1000,
+  "ammo_demand": 100,
+  "ammo_per_shot": 100,
+  "ammo_source": "energy",
+  "anti_entity_targets": [
+    
+	"/pa/units/commanders/base_commander/base_commander_aa_ammo.json",
+    "/pa/units/air/fighter/fighter_ammo.json",
+    "/pa/units/air/fighter_adv/fighter_adv_ammo.json",
+    "/pa/units/land/air_defense/air_defense_ammo.json",
+    "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle_ammo.json",
+	"/pa/units/land/air_defense_adv/air_defense_adv_ammo.json",
+	"/pa/units/land/assault_bot/assault_bot_ammo.json",
+	"/pa/units/land/tank_flak/tank_flak_ammo.json",
+	"/pa/units/land/bot_support_commander/bot_support_commander_ammo.json",
+	"/pa/units/sea/drone_carrier/drone/drone_tool_weapon.json",
+	"/pa/units/sea/missile_ship/missile_ship_aa_tool_weapon.json",
+	"/pa/units/sea/frigate/frigate_tool_weapon_aa.json"
+	
+	
+  ],
+  "anti_entity_targets_units": false,
+  "auto_task_type": "anti_entity",
+  "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
+  "energy_efficiency_requirement": 1,
+  "start_fully_charged": false,
+  "target_layers": [
+    "WL_Air"
+  ]
+}
