@@ -22,7 +22,7 @@
       "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_raptor_zaazzaa_thumb.png"
     }
   },
-  "Custom": true,
+  "custom": true,
   "description": "Raptor Zaazzaa Commander",
   "display_name": "Zaazzaa Commander",
   "headlights": [
